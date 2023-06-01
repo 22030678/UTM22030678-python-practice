@@ -42,3 +42,18 @@ while i < len(dads):
     i += 1
 # This is the last message
 print("These are the tutors of the babies.")
+
+
+
+
+# DICTIONARY
+# This is the message displayed
+print("Babies allergies")
+# These are baby allergies
+allergies = {'Jose Lopez': 'does not have any allergies', 'Pablo Rodriguez': 'Mango', 'Juana de Lira': 'paracetamol',
+             'Luis de Lira': 'does not have any allergies', 'Zuly Ponce': 'paracetamol', 'Orlando Torres ': 'carrot', 'Sharon De la Rosa': 'does not have any allergies'}
+# Babies allergies are added
+allergies['Jose Lopez'] = "pumpkins"
+allergies['Luis de Lira'] = "potatoes"
+# The final list is displayed
+print(allergies)
